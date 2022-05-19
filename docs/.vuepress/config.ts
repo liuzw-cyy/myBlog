@@ -259,7 +259,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       }
     ],
-
+    [
+      //鼠标点击特效 先安装在配置， npm install vuepress-plugin-cursor-effects --save
+      "vuepress-plugin-cursor-effects",
+      {
+        size: 3,                    // size of the particle, default: 2
+        shape: ['circle'],  // shape of the particle, default: 'star'
+        zIndex: 999999999           // z-index property of the canvas, default: 999999999
+      }
+    ],
     [
       'one-click-copy', // 代码块复制按钮
       {
@@ -267,20 +275,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
         duration: 1000, // prompt message display time.
         showInMobile: false, // whether to display on the mobile side, default: false.
-      },
-    ],
-
-    [
-      'demo-block', // demo演示模块 https://github.com/xiguaxigua/vuepress-plugin-demo-block
-      {
-        settings: {
-          // jsLib: ['http://xxx'], // 在线示例(jsfiddle, codepen)中的js依赖
-          // cssLib: ['http://xxx'], // 在线示例中的css依赖
-          // vue: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js', // 在线示例中的vue依赖
-          jsfiddle: false, // 是否显示 jsfiddle 链接
-          codepen: true, // 是否显示 codepen 链接
-          horizontal: false, // 是否展示为横向样式
-        },
       },
     ],
     [
