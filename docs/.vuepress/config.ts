@@ -60,7 +60,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '技术',
         link: '/technology/',
         items: [
-          { text: 'Nodejs', link: '/pages/e106ec/' },
+          { text: 'Nodejs', link: '/pages/a4d07e/' },
           { text: 'webpack', link: '/pages/bcf7ef/' },
           { text: 'Promise基础', link: '/pages/5597b2/' },
           { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
