@@ -177,7 +177,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2021, // 博客创建年份
       copyrightInfo:
-        'liuzw | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
+        'liuzw | <a href="https://github.com/liuzw-cyy/myBlog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
@@ -202,7 +202,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
       },
     ],
-    ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
+    // ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     // [
     //   'script',
@@ -218,14 +218,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   // 插件配置
   plugins: <UserPlugins>[
 
-    'vuepress-plugin-baidu-autopush', // 百度自动推送
+    // 'vuepress-plugin-baidu-autopush', // 百度自动推送
 
-    [
-      'vuepress-plugin-baidu-tongji', // 百度统计
-      {
-        hm: baiduCode,
-      },
-    ],
+    // [
+    //   'vuepress-plugin-baidu-tongji', // 百度统计
+    //   {
+    //     hm: baiduCode,
+    //   },
+    // ],
 
     // 全文搜索。 ⚠️注意：此插件会在打开网站时多加载部分js文件用于搜索，导致初次访问网站变慢。如在意初次访问速度的话可以不使用此插件！（推荐：vuepress-plugin-thirdparty-search）
     // 'fulltext-search',
