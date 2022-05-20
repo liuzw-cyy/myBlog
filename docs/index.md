@@ -13,8 +13,8 @@ features: # 可选的
     details: JavaScript、ES6、Vue框架等前端技术
     link: /web/ # 可选
     imgUrl: /img/web.png # 可选
-  - title: HTML5 and CSS
-    details: html5/css3，前端页面相关技术
+  - title: HTML and CSS
+    details: HTNL5/CSS3，前端页面相关技术
     link: /ui/
     imgUrl: /img/ui.png
   - title: 技术文档

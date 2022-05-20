@@ -117,9 +117,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     bodyBgImg: [
       'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper3.png',
       // 'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper2.png',
-      // 'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper1.png'
+      'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper1.png'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
-    bodyBgImgOpacity: 0.8, // body背景图透明度，选值 0.1~ 1.0, 默认0.5
+    bodyBgImgOpacity: 0.9, // body背景图透明度，选值 0.1~ 1.0, 默认0.5
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
     // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
     //   '图标地址1',
