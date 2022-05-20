@@ -115,7 +115,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
     bodyBgImg: [
-      'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_3.png',
+      // 'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_3.png',
       'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_2.png',
       'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_1.png'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
