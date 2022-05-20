@@ -44,6 +44,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: '《ES6 教程》', link: '/note/es6/' },
               { text: '《Vue》', link: '/note/vue/' },
               { text: '《Git》', link: '/note/git/' },
+              { text: '《算法与编程》', link: '/note/code/' }
             ],
           },
         ],
