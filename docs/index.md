@@ -2,7 +2,7 @@
 home: true
 # heroImage: /img/web.png
 heroText: liuzw's blog
-tagline: 瑶瑶有什么错呢，只是一只猪猪罢了！
+tagline: 瑶瑶有什么错呢，瑶瑶只是一只猪猪罢了！
 # actionText: 立刻进入 →
 actionLink: /web/
 bannerBg: auto   # auto:网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式
