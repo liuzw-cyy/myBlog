@@ -74,8 +74,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '更多',
         link: '/more/',
         items: [
-          { text: '学习', link: '/pages/a8692ab3bdcb4588' },
-          { text: '面试', link: '/pages/aea6571b7a8bae86/' },
+          { text: 'liuzw的面试宝典', link: '/pages/693628/' },
           { text: '友情链接', link: '/friends/' },
         ],
       },
