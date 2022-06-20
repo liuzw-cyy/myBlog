@@ -50,15 +50,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '页面',
+        text: '技术难点',
         link: '/ui/',
-        items: [
+          items: [
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
           { text: 'CSS', link: '/pages/5ad8f9/' },
+          {text: 'JS', link: '/pages/0b9d65/'}
         ],
       },
       {
-        text: '技术',
+        text: '进阶',
         link: '/technology/',
         items: [
           { text: 'Nodejs', link: '/pages/a4d07e/' },
