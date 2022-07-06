@@ -49,10 +49,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '技术难点',
         link: '/ui/',
-          items: [
+        items: [
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
           { text: 'CSS', link: '/pages/5ad8f9/' },
-          {text: 'JS', link: '/pages/0b9d65/'}
+          { text: 'JS', link: '/pages/0b9d65/' }
         ],
       },
       {
