@@ -27,21 +27,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '前端',
+        text: '学习笔记',
         link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: '前端文章',
-            items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-            ],
-          },
-          {
             text: '学习笔记',
             items: [
               { text: '《Git》', link: '/note/git/' },
-              { text: '《算法与编程》', link: '/note/code/' }
+              { text: '《算法与编程》', link: '/note/code/' },
+              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
             ],
           },
         ],
