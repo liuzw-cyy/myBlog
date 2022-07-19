@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "18fde91de57a2a8e",
+        "id": "d7c1bddcf481257b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.MD",
+            "file": "docs/《算法与编程》笔记/10.手写代码/00.深拷贝.md",
             "mode": "source",
+            "backlinks": true,
             "source": false
           }
         }
@@ -77,13 +78,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.MD",
+                "file": "docs/《算法与编程》笔记/10.手写代码/00.深拷贝.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -94,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.MD",
+                "file": "docs/《算法与编程》笔记/10.手写代码/00.深拷贝.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.MD"
+                "file": "docs/《算法与编程》笔记/10.手写代码/00.深拷贝.md"
               }
             }
           }
@@ -125,12 +126,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "18fde91de57a2a8e",
+  "active": "90799b756bd6377a",
   "lastOpenFiles": [
-    "node_modules/update-notifier/readme.md",
-    "docs/《算法与编程》笔记/00.Leetcode/00.二叉树/98.验证二叉搜索树.md"
+    "docs/《算法与编程》笔记/10.手写代码/123.liuzw.md.md",
+    "docs/《算法与编程》笔记/00.Leetcode/00.二叉树/98.验证二叉搜索树.md",
+    "README.MD",
+    "node_modules/update-notifier/readme.md"
   ]
 }
