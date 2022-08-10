@@ -17,8 +17,8 @@ features: # 可选的
     details: HTNL5/CSS3，前端页面相关技术
     link: /ui/
     imgUrl: /img/ui.png
-  - title: 技术文档
-    details: 技术文档、教程、技巧、总结等文章
+  - title: 进阶
+    details: 前端进阶技术总结和文章
     link: /technology/
     imgUrl: /img/other.png
 
