@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style>
-    .border {
-      width: 0;
-      height: 0;
-      border-width: 0 50px 50px;
-      border-style: solid;
-      border-color: transparent transparent skyblue;
-    }
+      .demo {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+      }
     </style>
 </head>
 <body>
-  <div class="border"></div>
-  <div class="line"></div>
-  <div class="three"><b>123</b></div>
-  <div class="three">123</div>
+  <script>
+      var p = document.createElement('div')
+      p.setAttribute('class', 'demo')
+      document.querySelector('body').appendChild(p)
+      document.querySelector('div').onclick = hide()
+
+      function hide() {
+        let div = document.querySelector('div')
+        div.style.visibility = 'hidden'
+      }
+  </script>
 </body>
 </html>
