@@ -4,24 +4,18 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style>
-      .demo {
-        height: 100px;
-        width: 100px;
-        background-color: red;
+      .class {
+        width: 100%;
+        height: 1px;
+        border-bottom-style: dotted;
+        border-bottom-color: black;
       }
     </style>
 </head>
 <body>
+  <div class="class"></div>
   <script>
-      var p = document.createElement('div')
-      p.setAttribute('class', 'demo')
-      document.querySelector('body').appendChild(p)
-      document.querySelector('div').onclick = hide()
 
-      function hide() {
-        let div = document.querySelector('div')
-        div.style.visibility = 'hidden'
-      }
   </script>
 </body>
 </html>
